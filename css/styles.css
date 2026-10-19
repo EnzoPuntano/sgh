@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+.login-body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
+}
+
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 35px #0002;
+}
+
+.login-card h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #1d4ed8;
+}
+
+.login-card > p {
+    text-align: center;
+    color: #64748b;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 7px;
+    background: #1d4ed8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+.error {
+    color: #b91c1c !important;
+    background: #fee2e2;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.topbar {
+    background: #0f172a;
+    color: white;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.topbar h1 {
+    font-size: 22px;
+}
+
+.topbar a {
+    color: white;
+}
+
+.dashboard {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 18px;
+}
+
+.menu-card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.menu-card h3 {
+    color: #1d4ed8;
+}
+
+.menu-card p {
+    color: #64748b;
+    line-height: 1.5;
+}
